@@ -1,0 +1,95 @@
+#navbar{
+    flex-direction: column;
+    width: auto;
+
+}
+#logo img{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    align-items: center;
+    justify-content: center;
+}
+#home{
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#home::before{
+    height: 380px;
+}
+#home p{
+    font-size: 16px;
+}
+.h-primary{
+    height: 28px;
+    font-size: 1.2rem;
+    padding: 100px;
+
+}
+.h-primary center{
+    height: 126px;
+}
+
+#services{
+    flex-direction: column;
+    margin: -99px;
+    display: flex;
+    padding: 0px 168px;
+    
+}
+#services .box{
+    flex-direction: column;
+    margin: 6px 15px;
+    height: 138px;
+    width: 189px;
+   
+}
+#services .box img{
+    height: 115px;
+    margin: auto;
+    display: block;
+    flex-direction: row;
+}
+.h-secondary{
+    font-size: 0.8rem;
+    padding: -1px;
+}
+
+.btn{
+    padding: 4px 8px;
+    border: 2px solid white;
+    border-radius: 18px;
+    margin: 17px;
+    font-size: 0.7rem;
+}
+
+#coupon{
+    overflow: hidden;
+}
+.coupon {
+    padding: 8px 4px;
+    margin-top: -92px;
+    margin-bottom: 116px;
+}
+.center{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.column {
+    width: 50%;
+    display: contents;
+  }
+#contact-box textarea{
+    font-size: 1.5rem;
+}
+.card{
+    margin: 126px;
+}
+.container{
+padding: 15px 8px;
+}
